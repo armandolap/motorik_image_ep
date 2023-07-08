@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1ff3b57;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 800px;
+  margin: auto;
+  padding: 4%;
+}
+
+.cover {
+  position: relative;
+  margin: 2%;
+  box-shadow: 3px 2px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+.cover:after {
+  content: "";
+  display: block;
+}
+
+img {
+  position: absolute;
+  width: 40%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  filter: invert(1);
+  opacity: .8;
+} 
+
+.red {
+  filter: invert(67%) sepia(89%) saturate(7492%) hue-rotate(237deg) brightness(84%) contrast(146%);
+}
+
+.green {
+  filter: invert(62%) sepia(65%) saturate(3453%) hue-rotate(237deg) brightness(111%) contrast(132%);
+}
+
+.blue {
+  filter: invert(7%) sepia(83%) saturate(5655%) hue-rotate(16deg) brightness(128%) contrast(149%);
+}
+
+.line {
+  display: flex;
+}
+
+.square {
+  width: 4px;
+  height: 4px;
+}
+ 
+
+
+
+
+ 

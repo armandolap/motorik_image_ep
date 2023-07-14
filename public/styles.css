@@ -11,8 +11,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 800px;
-  margin: auto;
   padding: 4%;
 }
 
@@ -35,7 +33,7 @@ img {
   transform: translate(-50%, -50%);
   filter: invert(1);
   opacity: .8;
-} 
+}
 
 .red {
   filter: invert(67%) sepia(89%) saturate(7492%) hue-rotate(237deg) brightness(84%) contrast(146%);
@@ -57,9 +55,9 @@ img {
   width: 4px;
   height: 4px;
 }
- 
 
-
-
-
- 
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 7%;
+  }
+}
